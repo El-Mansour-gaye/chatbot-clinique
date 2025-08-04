@@ -177,7 +177,7 @@ def chat():
             return jsonify({"status": "error", "response": "Message utilisateur vide"}), 400
 
         agent_executor = get_agent_executor(memory=memory)
-        response = agent_executor.invoke({"input": user_input})
+        response = agent_executor["invoke"]({"input": user_input})
         bot_reply = response['output']
 
         if "[CONFIRM_APPOINTMENT]" in bot_reply:
