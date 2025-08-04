@@ -8,3 +8,8 @@ requests
 python-dateutil
 supabase
 gunicorn
+pydantic
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
