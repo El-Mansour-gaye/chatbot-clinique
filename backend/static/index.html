@@ -7,12 +7,17 @@
    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div id="chat-container">
-        <h1>Bienvenue dans notre Chatbot Clinique</h1>
-        <div id="chat-box">
-            <div id="messages"></div>
-            <input type="text" id="user-input" placeholder="Tapez votre message ici..." />
-            <button id="send-button">Envoyer</button>
+    <div class="chat-container" id="chatWidgetContainer">
+        <div class="chat-header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Bitmap_Logo.png" alt="Logo Clinique" style="height:40px;width:40px;border-radius:8px;vertical-align:middle;margin-right:10px;">
+            <span style="font-size:1.2rem;font-weight:600;vertical-align:middle;">Chatbot Clinique</span>
+        </div>
+        <div id="chatbox" class="chatbox">
+            <!-- Les messages du chatbot -->
+        </div>
+        <div class="input-container">
+            <input type="text" id="userInput" placeholder="Tapez votre message ici..." />
+            <button id="sendBtn">Envoyer</button>
         </div>
     </div>
     <script src="js/chatbot.js"></script>
