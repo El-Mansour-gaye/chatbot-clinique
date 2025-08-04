@@ -2,6 +2,7 @@ Flask
 flask-cors
 python-dotenv
 langchain
+langchain-community
 langchain-groq
 requests
 python-dateutil
