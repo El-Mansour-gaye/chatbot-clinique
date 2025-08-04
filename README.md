@@ -37,8 +37,6 @@ chatbot_spe_clinique
    python backend/app.py
    ```
 
-2. Accédez à l'interface utilisateur via votre navigateur à l'adresse `http://localhost:5000`.
-
 ## Contribuer
 Les contributions sont les bienvenues ! Veuillez soumettre une demande de tirage pour toute amélioration ou correction de bogue.
 
